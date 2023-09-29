@@ -5,11 +5,11 @@ import 'package:todos/presentation/todo_screen/todo_list_screen.dart';
 import 'package:todos/utils/routes.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(const TodoApp());
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+class TodoApp extends StatelessWidget {
+  const TodoApp({super.key});
 
   @override
   Widget build(BuildContext context) {
